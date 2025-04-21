@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navlogo ">
+                <div class="logo border"></div>
+            </div>
+            <div class="nav-address border">
+                <p id="deliver">Delivering to Varanasi 221001</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot" id="locdot"></i>
+                    <p id="update">Update Location</p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="select">
+                    <option>All</option>
+                    <option>Electronics</option>
+                    <option>Mobiles</option>
+                </select>
+                <input type="text" placeholder="Search Amazon.in" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-toolbar">
+                <div class="lang border">
+                    <img src="india.png" alt="india" class="india">
+                    <div class="nav-dropdown">
+                        <button class="nav-dropbtn">EN<span class="nav-arrow">▼</span></button>
+                        <div class="nav-dropdown-content">
+                            <a href="#">English</a>
+                            <a href="#">हिन्दी</a>
+                            <a href="#">Deutsch</a>
+                            <a href="#">Français</a>
+                            <a href="#">Español</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-signin border">
+                    <p><span class="box1">Hello, sign in</span></p>
+                    <p class="box2">Accounts & Lists</p>
+                </div>
+                <div class="nav-returns border">
+                    <p><span class="box1">Returns</span></p>
+                    <p class="box2">& Orders</p>
+                </div>
+                <div class="nav-cart border">
+                    <i class="fa-solid fa-shopping-cart" id="cart-icon"></i>
+                    <p>Cart</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-ops">
+                <p>MX Player</p>
+                <p>Sell</p>
+                <p>Best Sellers</p>
+                <p>Today's Deals</p>
+                <p>Mobiles</p>
+                <p>Customer Service</p>
+                <p>Electronics</p>
+                <p>Prime</p>
+                <p>New Releases</p>
+                <p>Amazon Pay</p>
+                <p>Home & Kitchen</p>
+                <p>Fashion</p>
+                <p>Computer</p>
+                <p>Books</p>
+                <p>Car & Motorbike</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero-section"></div>
+    <div class="shop-section">
+      <div class="row1">  
+        <div class="card1 shop-card">
+             <h4>Appliances for your home | Up to 55% off<h4>
+               <div class="row1">
+                 <div id="app1" class="apps">
+                  <img src="Appliances-1.jpg">
+                  <p>Air Conditioners</p>
+                 </div>
+                 <div id="app2" class="apps">
+                  <img src="Appliances-2.jpg" alt="app2">
+                  <p>Refrigerators</p>
+                 </div>
+               </div> 
+               <div class="row2">
+                 <div id="app3" class="apps">
+                  <img src="Appliances-3.jpg" alt="app3">
+                  <p>Microwaves</p>
+                 </div>
+                 <div id="app4" class="apps">
+                  <img src="Appliances-4.jpg" alt="app4">
+                  <p>Washing Machines</p>
+                 </div>
+                </div> 
+                <p id="see-more">See more</p>
+            </div>
+        
+          <div class="card2 shop-card">
+            <h4>Revamp your home in style<h4>
+                <div class="row1">
+                  <div id="revamp1" class="apps">
+                   <img src="revamp1.jpg">
+                   <p>Cushion covers, bedsheets & more</p>
+                  </div>
+                  <div id="revamp2" class="apps">
+                   <img src="revamp2.jpg" alt="revamp2">
+                   <p>Figurines, vases & more</p>
+                  </div>
+                </div> 
+                <div class="row2">
+                  <div id="revamp3" class="apps">
+                   <img src="revamp3.jpg" alt="revamp3">
+                   <p>Home Storage</p>
+                  </div>
+                  <div id="revamp4" class="apps">
+                   <img src="revamp4.jpg" alt="revamp4">
+                   <p>Lighting Solutions</p>
+                  </div>
+                 </div> 
+                 <p id="explore-all">Explore All</p>
+          </div>
+          <div class="card3 shop-card">
+            <h4>Starting ₹149 | Headphones<h4>
+                <div class="row1">
+                  <div id="head1" class="apps">
+                   <img src="head1.jpg">
+                   <p>Air Conditioners</p>
+                  </div>
+                  <div id="head2" class="apps">
+                   <img src="head2.jpg" alt="head2">
+                   <p>Refrigerators</p>
+                  </div>
+                </div> 
+                <div class="row2">
+                  <div id="head3" class="apps">
+                   <img src="head3.jpg" alt="head3">
+                   <p>Microwaves</p>
+                  </div>
+                  <div id="head4" class="apps">
+                   <img src="head4.jpg" alt="head4">
+                   <p>Washing Machines</p>
+                  </div>
+                 </div> 
+                 <p id="see-all-offers">See All Offers</p>
+          </div>
+          <div class="card4 shop-card">
+            <h4>Automotive essentials | Up to 60% off<h4>
+                <div class="row1">
+                  <div id="auto-1" class="apps">
+                   <img src="auto-1.jpg">
+                   <p>Cleaning accessories</p>
+                  </div>
+                  <div id="auto-2" class="apps">
+                   <img src="auto-2.jpg" alt="auto-2">
+                   <p>Tyre & rim care</p>
+                  </div>
+                </div> 
+                <div class="row2">
+                  <div id="auto-3" class="apps">
+                   <img src="auto-3.jpg" alt="auto-3">
+                   <p>Helmets</p>
+                  </div>
+                  <div id="auto-4" class="apps">
+                   <img src="auto-4.jpg" alt="auto-4">
+                   <p>Vacuum cleaner</p>
+                  </div>
+                 </div> 
+                 <p id="see-more">See more</p>
+        </div>
+     </div> 
+     <div class="wide-card">
+        <div class="text">
+                <h4>No cost EMI up to 24 months | Starting ₹4,433 INR/month*</h4>
+                <p id="see-all-offers">See all offers</p>
+        </div>       
+        <div class="images">
+                <img src="veh-1.jpg" alt="vehicle1">
+                <img src="veh-2.jpg" alt="vehicle2">
+                <img src="veh-3.jpg" alt="vehicle3">
+                <img src="veh-4.jpg" alt="vehicle4">
+        </div>  
+     </div> 
+     <div class="wide-card">
+        <div class="text">
+                <h4>No cost EMI up to 24 months | Starting ₹4,433 INR/month*</h4>
+                <p id="see-all-offers">See all offers</p>
+        </div>       
+        <div class="images">
+                <img src="veh-1.jpg" alt="vehicle1">
+                <img src="veh-2.jpg" alt="vehicle2">
+                <img src="veh-3.jpg" alt="vehicle3">
+                <img src="veh-4.jpg" alt="vehicle4">
+        </div>  
+     </div> 
+    </div>
+    
+    
+</body>
+</html>
